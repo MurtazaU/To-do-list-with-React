@@ -1,8 +1,11 @@
-import React from 'react'
+import React from 'react';
 
 function TodoList({task}) {
   return (
+    <div className="">
     <li>{task}</li>
+    </div>
+    
   )
 }
 
