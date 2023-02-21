@@ -1,10 +1,10 @@
 import { List, ListItem, ListItemAvatar, ListItemText } from '@material-ui/core';
 import React from 'react';
-import './Todo.css';
+import '../CSS/Todo.css';
 
 function TodoList({text}) {
   return (
-    <>
+    <div className='todo_list'>
     <List>
       <ListItem>
         <ListItemAvatar>
@@ -12,7 +12,7 @@ function TodoList({text}) {
         <ListItemText primary="Task" secondary={text}/>
       </ListItem>
     </List>
-    </>
+    </div>
     
   )
 }
