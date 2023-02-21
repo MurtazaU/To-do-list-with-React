@@ -37,7 +37,7 @@ function App() {
         {/* Mapping */}
         {
           tasks.map(task =>(
-            <TodoList task={task}/>
+            <TodoList text={task}/>
             ))
         }
       </ul>
